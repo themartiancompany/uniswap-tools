@@ -26,20 +26,8 @@ programs and libraries to enable seamless development
 of native computer applications designed to interact
 with the UniSwap exchange. 
 
-In order to do so, the `evm-contract-call` program obtains networks'
-informations from the
-[EVM Contracts Tools](
-  https://github.com/themartiancompany/evm-contracts-tools),
-[EVM Chains Info](
-  https://github.com/themartiancompany/evm-chains-info)
-and 
-[EVM Chains Explorers](
-  https://github.com/themartiancompany/evm-chains-explorers)
-programs and automatically retrieves eventually missing smart
-contracts artifacts from online sources using the
-[EVM Contracts ABI Get](
-  https://github.com/themartiancompany/evm-contracts-abi-get)
-utility.
+The tools are tightly integrated with the
+EVM Toolchain.
 
 To communicate with Ethereum Virtual Machine-compatible
 blockchain networks the tools depend on the
